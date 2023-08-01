@@ -17,16 +17,16 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/allheroes">All Heroes</Nav.Link>
-              <Nav.Link href="/addhero">Add Hero</Nav.Link>
+              <Nav.Link href="/heroes">All Heroes</Nav.Link>
+              <Nav.Link href="/hero">Add Hero</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
       
         <Routes>
-          <Route path="allheroes" element={<AllHeroes/>} />
-          <Route path="addhero" element={<HeroForm/>} />
+          <Route path="/heroes" element={<AllHeroes/>} />
+          <Route path="/hero" element={<HeroForm/>} />
           <Route path="/" element={<AllHeroes/>} />
         </Routes>
       
