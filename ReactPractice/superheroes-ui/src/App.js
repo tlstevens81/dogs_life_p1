@@ -5,8 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import AllHeroes from './components/AllHeroes';
 import HeroForm from './components/HeroForm';
-import { Route } from 'react-router';
-import { Routes } from 'react-router';
+import { Route, Routes } from 'react-router';
 
 function App() {
   return (
